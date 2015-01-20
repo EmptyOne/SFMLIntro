@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B66516DC-B0A7-45DB-9DD8-639EC2AAEBA4}</ProjectGuid>
+    <ProjectGuid>{2E0307CA-97D3-4BC4-A845-3EE6EB3FBA00}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SFMLIntro</RootNamespace>
   </PropertyGroup>
@@ -58,12 +58,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\VSFiles\SFMLIntro\external\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\external\SFML\include;D:\VSFiles\SFMLIntro\external\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\VSFiles\SFMLIntro\external\SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../external/SFML/lib;D:\VSFiles\SFMLIntro\external\SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
