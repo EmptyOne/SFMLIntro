@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2E0307CA-97D3-4BC4-A845-3EE6EB3FBA00}</ProjectGuid>
+    <ProjectGuid>{B66516DC-B0A7-45DB-9DD8-639EC2AAEBA4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SFMLIntro</RootNamespace>
   </PropertyGroup>
