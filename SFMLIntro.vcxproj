@@ -58,12 +58,20 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>..\external\SFML\include</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>..\external\SFML\include;D:\VSFiles\SFMLIntro\external\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> origin/master
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>..\external\SFML\lib</AdditionalLibraryDirectories>
+=======
+      <AdditionalLibraryDirectories>../external/SFML/lib;D:\VSFiles\SFMLIntro\external\SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+>>>>>>> origin/master
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
